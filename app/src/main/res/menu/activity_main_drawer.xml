@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_m"
+            android:icon="@android:drawable/presence_online"
+            android:title="Main Screen" />
+        <item
+            android:id="@+id/inventory"
+            android:icon="@android:drawable/presence_online"
+            android:title="Inventory" />
+        <item
+            android:id="@+id/accessHistory"
+            android:icon="@android:drawable/presence_online"
+            android:title="Access History" />
+        <item
+            android:id="@+id/nav_permission"
+            android:icon="@android:drawable/presence_online"
+            android:title="Permissions" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/presence_online"
+            android:title="Settings" />
+    </group>
+
+</menu>
